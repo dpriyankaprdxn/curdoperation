@@ -19,6 +19,55 @@
     <!--header section start-->
     <!--main section start-->
     <main>
+      <section class="userform">
+        <div class="wrapper">
+          <div class="form-container">
+            <form action="#FIXME" method="post" class="form">
+              <div class="form-group">
+                <label>First Name:</label>
+                <input type="text" name="fname" id="fname" >
+              </div>
+              <div class="form-group">
+                <label>Last Name:</label>
+                <input type="text" name="lname" id="lname">
+              </div>
+              <div class="form-group">
+                <label>Gender:</label>
+                <input type="radio" name="gender" class="gender" value="male">
+                <span>Male</span>
+                <input type="radio" name="gender" value="female" class="gender">
+                <span>Female</span>
+              </div>
+              <div class="form-group">
+                <label>Address</label>
+                <textarea class="address"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="checkbox" name="terms" id="terms">
+                <span>Terms and conditions</span>
+              </div>
+              <div class="form-control">
+                <input type="button" name="submit" id="submit" value="Submit">
+                <input type="button" name="cancel" id="cancel" value="Cancel">
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="output">
+        <div class="wrapper">
+          <ul>
+            <li>Name</li>
+            <li>Last name</li>
+            <li>Gender</li>
+            <li>Address</li>
+            <li>Edit</li>
+            <li>Delete</li>
+          </ul>
+          <ul class="result-ul">
+          </ul>
+        </div>
+      </section>
     </main>
     <!--main section end-->
     <!--footer section start-->
