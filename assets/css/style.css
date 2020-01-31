@@ -119,14 +119,75 @@ li {
 /*=================================
   main styling starts here
 =================================*/
+.form-container {
+  box-sizing: border-box;
+  width: 50%;
+  padding: 50px;
+  border:1px solid #000;
+  margin: 50px auto;
+}
 
+.form-group {
+  width: 100%;
+  margin-bottom: 15px;
+}
 
+.form-group .textname {
+  width: 50%;
+  padding: 3px 19% 3px 2%;
+}
 
+label {
+  width: 25%;
+  display: inline-block;
+}
 
+.form-group textarea {
+  width: 65%;
+  padding: 5px 4% 40px 2%;
+  margin-left: 26%;
+}
 
+ .form-container .form-group:nth-child(4) {  position: relative; }
 
+ .form-container .form-group:nth-child(4) label {
+  position: absolute;
+  top: 35%;
+ }
 
+.form-control {
+  display: flex;
+  justify-content: center;
+}
 
+.form-control input {
+  padding: 5px 4%;
+  border:1px solid #666;
+  margin-right: 2%;
+  background-color:  #fff;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.heading li { 
+  border-top:1px solid #000; 
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+li {
+  width: 15%;
+  border: 1px solid #000;
+  border-top:none;
+  border-left: none;
+  text-align: center;
+  padding: 5px 0;
+}
+
+li:first-child { border-left:1px solid #000; }
 /*=================================
   main styling ends here
 =================================*/
