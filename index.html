@@ -22,7 +22,7 @@
       <section class="userform">
         <div class="wrapper">
           <div class="form-container">
-            <form action="#FIXME" method="post" class="form">
+            <form action="#FIXME" method="post" name="myform" class="form">
               <div class="form-group">
                 <label>First Name:</label>
                 <input type="text" name="fname" id="fname" class="textname" >
@@ -33,14 +33,14 @@
               </div>
               <div class="form-group">
                 <label>Gender:</label>
-                <input type="radio" name="gender" class="gender" value="male">
+                <input type="radio" name="gender" class="gender" id=male value="male">
                 <span>Male</span>
-                <input type="radio" name="gender" value="female" class="gender">
+                <input type="radio" name="gender" value="female" id="female" class="gender">
                 <span>Female</span>
               </div>
               <div class="form-group">
                 <label>Address</label>
-                <textarea class="address"></textarea>
+                <textarea id="address"></textarea>
               </div>
               <div class="form-group">
                 <input type="checkbox" name="terms" id="terms">
@@ -76,6 +76,6 @@
     <!--footer section end-->
   </div>
   <!--container end-->
-  <script src="js/script.js"></script> 
+  <script src="assets/js/script.js"></script> 
 </body>
 </html>

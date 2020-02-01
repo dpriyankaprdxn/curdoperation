@@ -88,6 +88,7 @@ body {
 }
 
 a { 
+  cursor: pointer;
   display: inline-block;
   text-decoration: none; 
 }
@@ -186,6 +187,7 @@ li {
   text-align: center;
   padding: 5px 0;
 }
+
 
 li:first-child { border-left:1px solid #000; }
 /*=================================
